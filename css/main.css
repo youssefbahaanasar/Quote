@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url(../fonts/impact/impact.ttf);
+}
+
+@font-face {
+    font-family: 'times-new-roman';
+    src: url(../fonts/times-new-roman/times.ttf);
+}
+
+p {
+    font-size: 35px;
+    font-family: 'times-new-roman';
+    text-align: center;
+    margin-block: 35px;
+}
+
+h1 {
+    font-family: 'Impact';
+    font-size: 80px;
+    font-weight: 700;
+    margin-block: 50px;
+    color: black;
+}
+
+@media screen and (max-width:662px) {
+h1 {
+    font-size: 52px;
+}
+p {
+    font-size: 26px;
+    padding-inline: 10px ;
+}
+}
